@@ -1,0 +1,83 @@
+:root {
+    --vp-layout-max-width: 100%;
+    --vp-c-brand: #646cff;
+    --vp-c-brand-light: #747bff;
+    --vp-c-brand-lighter: #9499ff;
+    --vp-c-brand-lightest: #bcc0ff;
+    --vp-c-brand-dark: #535bf2;
+    --vp-c-brand-darker: #454ce1;
+    --vp-code-block-bg: #f9fafb;
+}
+
+// 主体布局
+.has-aside {
+    .content-container {
+        max-width: 100% !important;
+    }
+}
+
+.vp-doc {
+    .example {
+        border: 1px solid #f5f5f5;
+        border-radius: 5px;
+        padding: 20px
+    }
+    // 展开源码按钮
+    details {
+        summary {
+            color: #1989fa;
+            font-size: 10px;
+            padding: 2px 0;
+            text-align: center;
+            box-sizing: border-box;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 0;
+        }
+        summary:hover {
+            background-color: #f9fafc;
+        }
+    }
+
+    h2{
+        margin-top: 10px;
+        padding-top: 32px;
+    }
+
+    .demo-block {
+        .meta {
+            background-color: var(--vp-code-block-bg);
+        }
+    }
+
+    //ur-table布局
+    .layout-content {
+        height: 600px;
+        overflow: hidden;
+        padding: var(--ur-spacing-3);
+        font-size: var(--ur-font-size-2);
+        background-color: var(--ur-color-12);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        .ant-table-tbody{
+            .ant-table-cell-fix-left, .ant-table-cell-fix-right {
+                background:transparent;
+            }
+        }
+    }
+
+    //去除vitepress table默认样式
+    table {
+        margin: 0;
+        display: table;
+        th, td {
+            border: none;
+        }
+    }
+}
+
+.dark {
+    --vp-code-block-bg: var(--vp-c-bg-alt);
+}
