@@ -1,0 +1,5 @@
+import{_ as e,c as t,o as a,Q as o}from"./chunks/framework.a87c977f.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"version-log/1-0-0.md","filePath":"version-log/1-0-0.md","lastUpdated":1709880088000}'),d={name:"version-log/1-0-0.md"},i=o(`<h2 id="_1-0-0-beta-1" tabindex="-1">1.0.0-beta-1</h2><h4 id="一、upload组件调整" tabindex="-1">一、upload组件调整</h4><h5 id="_1、urfileupload-vue-多文件上传功能" tabindex="-1">1、UrFileUpload.vue 多文件上传功能</h5><pre><code>    fix: 修复组件无法预览功能
+</code></pre><h2 id="_1-0-0-beta-1-1" tabindex="-1">1.0.0-beta-1</h2><h4 id="一、upload组件调整-1" tabindex="-1">一、upload组件调整</h4><h5 id="_1、支持oss图片、文件上传v2版本" tabindex="-1">1、支持OSS图片、文件上传V2版本</h5><pre><code>   + 调整OSS接口上传参数，将files[] =&gt; file 、 access_token =&gt; token
+   +  OSS文件上传接口返回字段变更，UrFileUpload.vue 、UrImageUpload.vue 
+      调整变更字段 file_code =&gt; code 、file_name=&gt; name
+</code></pre>`,8),n=[i];function _(r,s,l,c,p,h){return a(),t("div",null,n)}const m=e(d,[["render",_]]);export{f as __pageData,m as default};
