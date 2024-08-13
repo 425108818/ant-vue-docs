@@ -1,0 +1,5 @@
+import{_ as e,c as t,o as n,Q as o}from"./chunks/framework.f103d8d8.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"version-log/1-1-0.md","filePath":"version-log/1-1-0.md","lastUpdated":null}'),a={name:"version-log/1-1-0.md"},r=o(`<h2 id="_1-1-1" tabindex="-1">1.1.1</h2><h5 id="_1、国际化功能" tabindex="-1">1、国际化功能</h5><pre><code>    1: 添加中文、英文、越南语、泰文、马来语
+    2: 项目自定义文案及语言包
+</code></pre><h5 id="_2、urbutton-vue-按钮" tabindex="-1">2、UrButton.vue 按钮</h5><pre><code>    1: popconfirm样式限制框300px
+</code></pre><h5 id="_3、ursearch-vue-搜索组件" tabindex="-1">3、UrSearch.vue 搜索组件</h5><pre><code>    1: 时间选择 DateTimeSearchItem、DateRangeSearchItem。添加showTimes属性，显示时分秒。
+</code></pre><h2 id="_1-1-2" tabindex="-1">1.1.2</h2><h4 id="一、urbutton-按钮" tabindex="-1">一、UrButton 按钮</h4><h5 id="_1、urbutton添加placement属性-设置弹框提示方向placement-与官网tooltip-placement一致" tabindex="-1">1、UrButton添加placement属性 设置弹框提示方向placement, 与官网Tooltip Placement一致</h5>`,10),c=[r];function d(i,_,p,s,h,l){return n(),t("div",null,c)}const x=e(a,[["render",d]]);export{u as __pageData,x as default};
